@@ -27,7 +27,7 @@ You may also use anonymous function as nested attribute.
 Above we send attribute value into function. You may send object itself:  
 **'. as attribute_name' => function($data) ...**  
 And you may append several attributes with a function:  
-**'. as .' => function($data) { return ['foo' => 'bar', 'foe' => 'baz']; }
+**'. as .' => function($data) \{ return \['foo' => 'bar', 'foe' => 'baz'\]; \}**
 
 # Examples
 
