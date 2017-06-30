@@ -102,7 +102,7 @@ Result:
 ]
 ```
 
-##Process Google geocoder answer
+## Process Google geocoder answer
 ```json
 {
    "results" : [
