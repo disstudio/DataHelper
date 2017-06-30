@@ -3,14 +3,14 @@ Helper class that validates and converts complex data structures
 
 # Usage
 Just call the function CDataHelper::getData(mixed $your_data, array $attributes)  
-**Note: if you want to process an array with attribute values, cast it to an object to prevent initial iteration**
+**Note: if you want to process an array with attribute values, cast it to an object to prevent initial iteration.**
 
 ## Attributes syntax
 Each element in attributes array has the following syntax:  
 **name \[as alias\] \[type\]**  
-name: Attribute name to retrieve from source array or object. You may access nested parameters separating by dot (e.g. 'item.id')
-alias: Output attribute with another name.
-type: Cast value to specified type. Supported types: int, float, array. Array type works only if attribute value is an array.
+**name:** Attribute name to retrieve from source array or object. You may access nested parameters separating by dot (e.g. 'item.id')
+**alias:** Output attribute with another name.
+**type:** Cast value to specified type. Supported types: int, float, array. Array type works only if attribute value is an array.
 
 Setting a dot for attribute name or alias has e special meaning.
 Dot as attribute name returns object/array itself instead of specified attribute.
